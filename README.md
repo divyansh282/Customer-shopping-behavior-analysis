@@ -127,11 +127,3 @@ Run the cells in order. The cells that load data into PostgreSQL, MySQL or SQL S
 ## Skills Demonstrated
 
 Data cleaning and feature creation (Pandas) · SQL (aggregations, CASE, subqueries, CTEs, window functions) · Dashboard design (Power BI) · Turning data into business insights
-
-## Acknowledgements
-
-This project was built by following a guided tutorial by **[YouTuber name](paste-video-link-here)**, with the analysis, findings and write-up documented here.
-
-## Author
-
-[divyansh282](https://github.com/divyansh282)
