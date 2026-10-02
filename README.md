@@ -86,11 +86,6 @@ Done in `Customer_Shopping_Behavior_Analysis.ipynb`:
 - Subscribers do not spend more per purchase, so the subscription program's value may lie in retention and purchase frequency rather than basket size. This would be worth testing.
 - Discounts did not increase average purchase size, which suggests reviewing whether broad discounts are worthwhile or whether more targeted promotions would work better.
 
-## Limitations
-
-- The dataset appears to be a clean, sample-style dataset: very little missing data and spending that is almost identical across groups, so the findings show small differences rather than strong patterns.
-- The analysis is descriptive. It shows relationships in the data but does not establish cause and effect.
-
 ## Repository Structure
 
 ```
