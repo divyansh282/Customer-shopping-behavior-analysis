@@ -25,7 +25,7 @@ A retail business wants to understand who its customers are, what they buy, and 
 | --- | --- |
 | Python (Pandas) | Data loading, cleaning and feature creation |
 | Jupyter Notebook | Running and documenting the Python analysis |
-| SQL (PostgreSQL) | Business analysis queries (also works with MySQL / SQL Server with minor syntax changes) |
+| SQL (PostgreSQL) | Business analysis queries |
 | Power BI | Interactive dashboard |
 | GitHub | Version control and documentation |
 
@@ -95,7 +95,6 @@ Customer-shopping-behavior-analysis/
 ├── customer_shopping_behavior.csv              # Dataset
 ├── customer_behavior_dashboard.pbix            # Power BI dashboard
 ├── dashboard.png                               # Dashboard screenshot
-├── Business Problem Document.pdf               # Business context
 └── README.md
 ```
 
@@ -108,10 +107,10 @@ cd Customer-shopping-behavior-analysis
 pip install pandas jupyter
 jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
 ```
-Run the cells in order. The cells that load data into PostgreSQL, MySQL or SQL Server need your own database and password; replace the `your_password` placeholder. All other cells only need the CSV.
+Run the cells in order. The cells that load data into PostgreSQL need your own database and password; replace the `your_password` placeholder. All other cells only need the CSV.
 
 **SQL analysis**
-1. Create a database in PostgreSQL, MySQL or SQL Server.
+1. Create a database in PostgreSQL Server.
 2. Load the cleaned data into a table named `customer` (the notebook does this), or import the CSV after applying the cleaning steps above.
 3. Run the queries in `customer_behavior_sql_queries.sql`. Some syntax (for example `::numeric`) is PostgreSQL-specific and may need adjusting for other databases.
 
